@@ -81,17 +81,6 @@ main {
   font-size: 2rem;
 }
 
-.nav-button-menu {
-  background-color: #108444;
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 0.5em 1em;
-  cursor: pointer;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .cont-one {
   margin-top: 2rem;
 }
@@ -107,14 +96,72 @@ main {
 
 .container-shop {
   display: flex;
-  flex-direction: column;
   gap: 1rem;
   font-size: 1.6rem;
-  margin-top: -1.5rem;
+  justify-content: space-between;
 } 
 
 .div-menu {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.8rem;
+}
+
+.price-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-shop-item-name {
+  text-align: left;
+}
+
+.other {
+  text-align: left;
+}
+
+.container-shop-item-price {
+  text-align: right;
+  white-space: nowrap;
+}
+
+main {
+  margin-top: 10px;
+}
+
+.green {
+  color: #108444;
+}
+
+.sup {
+  font-size: 1.4rem;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a {
+  padding: 5px 10px;
+  border: 1px solid #108444;
+  background-color: #108444;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pagination .active a {
+  background-color: white;
+  color: #108444;
 }
