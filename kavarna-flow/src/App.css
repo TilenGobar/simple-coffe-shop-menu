@@ -1,6 +1,5 @@
 html {
   font-size: 62.5;
-
 }
 
 body {
@@ -29,7 +28,6 @@ body {
   gap: 1em;
   margin-bottom: 0.5rem;
 }
-
 
 .nav-button {
   background-color: white;
@@ -99,7 +97,7 @@ main {
   gap: 1rem;
   font-size: 1.6rem;
   justify-content: space-between;
-} 
+}
 
 .div-menu {
   display: flex;

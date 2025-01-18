@@ -9,9 +9,8 @@ import { coffee } from "../components/coffee.js";
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
 
-
 const Menu = () => {
- return (
+  return (
     <div className="price-list">
       <Title title="KAVNI NAPITKI" />
       <Drinks drink={coffee[0]} price="1.80 €" />
@@ -32,10 +31,10 @@ const Menu = () => {
       <Drinks misc={coffee[15]} />
       <Drinks drink={coffee[16]} price="3.50 €" />
       <Drinks drink={coffee[17]} price="3.50 €" />
-      <Title sup="DODATKI"/>
-      <Drinks drink="BREZKOFEINKSA KAVA" price="+0.50 €"/>
-      <Drinks drink="RASTLINSKI NAPITEK 0,10L" price="+0.40 €"/>
-      <Title title="TOPLI NAPITKI"/>
+      <Title sup="DODATKI" />
+      <Drinks drink="BREZKOFEINKSA KAVA" price="+0.50 €" />
+      <Drinks drink="RASTLINSKI NAPITEK 0,10L" price="+0.40 €" />
+      <Title title="TOPLI NAPITKI" />
       <Drinks drink={warmDrinks[0]} price="3.00 €" />
       <Drinks misc={warmDrinks[1]} />
       <Drinks misc={warmDrinks[2]} />
@@ -48,10 +47,10 @@ const Menu = () => {
       <Drinks drink={warmDrinks[9]} price="3.50 €" />
       <Drinks misc={warmDrinks[10]} />
       <Title sup="DODATKI" />
-      <Drinks drink="SMETANA, MLEKO 0,1L" price="+0.50 €"/>
-      <Drinks drink="MED" price="+0.70 €"/>
-      <Drinks drink="LIMONA" price="+0.50 €"/>
-      <Title title="BREZALKOHOLNE PIJAČE"/>
+      <Drinks drink="SMETANA, MLEKO 0,1L" price="+0.50 €" />
+      <Drinks drink="MED" price="+0.70 €" />
+      <Drinks drink="LIMONA" price="+0.50 €" />
+      <Title title="BREZALKOHOLNE PIJAČE" />
       <Drinks drink={nonAlcoholicDrinks[0]} price="3.00 €" />
       <Drinks drink={nonAlcoholicDrinks[1]} price="3.50 €" />
       <Drinks misc={nonAlcoholicDrinks[2]} />
@@ -68,24 +67,24 @@ const Menu = () => {
       <Drinks drink={nonAlcoholicDrinks[13]} price="1.40 €" />
       <Drinks drink={nonAlcoholicDrinks[14]} price="3.00 €" />
       <Drinks drink={nonAlcoholicDrinks[15]} price="3.00 €" />
-      <Title title="ALKOHOLNE PIJAČE"/>
-      <Title sup="PIVO"/>
+      <Title title="ALKOHOLNE PIJAČE" />
+      <Title sup="PIVO" />
       <Drinks drink={alcoholicDrinks[0]} price="2.70 €" />
       <Drinks drink={alcoholicDrinks[1]} price="3.00 €" />
       <Drinks drink={alcoholicDrinks[2]} price="3.00 €" />
       <Drinks drink={alcoholicDrinks[3]} price="3.00 €" />
-      <Title sup="VINO IN PENEČA VINA"/>
+      <Title sup="VINO IN PENEČA VINA" />
       <Drinks drink={alcoholicDrinks[4]} price="1.50 €" />
       <Drinks drink={alcoholicDrinks[5]} price="1.80 €" />
       <Drinks drink={alcoholicDrinks[6]} price="4.00 €" />
       <Drinks drink={alcoholicDrinks[7]} price="5.00 €" />
-      <Title sup="TOPLI ALKOHOLNI NAPITKI"/>
+      <Title sup="TOPLI ALKOHOLNI NAPITKI" />
       <Drinks drink={alcoholicDrinks[8]} price="2.50 €" />
       <Drinks drink={alcoholicDrinks[9]} price="5.50 €" />
       <Drinks misc={alcoholicDrinks[10]} />
       <Drinks drink={alcoholicDrinks[11]} price="5.50 €" />
       <Drinks misc={alcoholicDrinks[12]} />
-      <Title sup="ŽGANE PIJAČE"/>
+      <Title sup="ŽGANE PIJAČE" />
       <Drinks drink={spirits[0]} price="3.50 €" />
       <Drinks drink={spirits[1]} price="4.50 €" />
       <Drinks drink={spirits[2]} price="3.50 €" />
@@ -103,7 +102,7 @@ const Menu = () => {
       <Drinks drink={spirits[14]} price="3.00 €" />
       <Drinks drink={spirits[15]} price="3.00 €" />
       <Drinks drink={spirits[16]} price="3.00 €" />
-      <Title sup="KOKTEJLI"/>
+      <Title sup="KOKTEJLI" />
       <Drinks drink={coctails[0]} price="6.00 €" />
       <Drinks misc={coctails[1]} />
       <Drinks drink={coctails[2]} price="6.00 €" />
@@ -123,7 +122,7 @@ const Menu = () => {
       <Drinks drink={coctails[16]} price="6.00 €" />
       <Drinks misc={coctails[17]} />
     </div>
-  )
+  );
 };
 
 export default Menu;

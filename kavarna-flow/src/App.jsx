@@ -21,7 +21,7 @@ function App() {
             O NAS
           </Link>
         </nav>
-        
+
         <Routes>
           <Route path="/home/" element={<Home />} />
           <Route path="/menu/*" element={<Menu />} />
