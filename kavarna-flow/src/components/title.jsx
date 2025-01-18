@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const Title = ({ title, sup }) => {
   return (
     <div>
@@ -8,3 +10,8 @@ const Title = ({ title, sup }) => {
 };
 
 export default Title;
+
+Title.propTypes = {
+  title: PropTypes.string,
+  sup: PropTypes.string
+};

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Day = ({ day, time }) => {
   return (
     <div className="container">
@@ -10,3 +12,8 @@ const Day = ({ day, time }) => {
 };
 
 export default Day;
+
+Day.propTypes = {
+  day: PropTypes.string,
+  time: PropTypes.string
+}

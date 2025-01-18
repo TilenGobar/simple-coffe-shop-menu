@@ -3,7 +3,7 @@ const About = () => {
     <div>
       <h1 className="green">ZAKAJ JE NAŠA KAVA POSEBNA</h1>
       <p className="sup">
-        V NAŠI KAVARNI FLOW PRIPRAVLJAMO T.I. "SPECIALTY KAVO"
+        V NAŠI KAVARNI FLOW PRIPRAVLJAMO T.I. &quot;SPECIALTY KAVO&quot;
       </p>
       <p>
         SPECIALTY KAVA PREDSTAVLJA VRHUNSKO KAVO NAJVIJŠE KAKOVOSTI, KI JE
